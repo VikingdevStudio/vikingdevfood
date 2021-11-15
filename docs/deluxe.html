@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>vikingdev</title>
+    <link rel="icon" type="image/png" sizes="6768x5291" href="./assets/img/c1.png">
+    <link rel="icon" type="image/png" sizes="6768x5291" href="./assets/img/c1.png">
+    <link rel="icon" type="image/png" sizes="6768x5291" href="./assets/img/c1.png">
+    <link rel="icon" type="image/png" sizes="6768x5291" href="./assets/img/c1.png">
+    <link rel="icon" type="image/png" sizes="6768x5291" href="./assets/img/c1.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="./assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="./assets/css/animated-services.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <div id="fb-root"></div>
+
+    
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "100438444694664");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v11.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+       <!-- Código de instalación Cliengo para www.vikingdev.site 
+    <script type="text/javascript">(function () { 
+            var ldk = document.createElement('script');                                     
+            ldk.type = 'text/javascript'; ldk.async = true;                                      
+            ldk.src = 'https://s.cliengo.com/weboptimizer/6155cecdc588b4002a514c64/615807ee466205002a52bcc7.js?platform=view_installation_code'; 
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>-->
+
+
+
+<div class="sticky-top">
+  <header id="header">
+              <a href="./index.html" class="logoresp"><img src="./assets/img/c1.png"/></a>
+              <a href="./index.html" class="logo"><img src="./assets/img/viking_dev.png"/></a>
+              <div class="toggle"></div>
+              <ul class="navigation">
+                  <li><a href="./index.html" class="active">Home</a></li>
+                  <li><a href="./service.html">Services</a></li>
+                  <li><a href="./pricing.html">Pricing</a></li>
+                  <li><a href="./portfolio.html">Portfolio</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                  <li id="bot"><span> <a href="/login.html">Log in</a></span></li>
+                 
+              </ul>
+          </header>
+  </div>
+    
+
+    <div class="pagar">
+      <div id="paypal-button-container-P-5N243535UA205610XMFIVNZI"></div>
+      <script src="https://www.paypal.com/sdk/js?client-id=AaYdpdnOKiS3NIPtzK5anDLwUAxzbn_HZq59_pzU0lcxBOz0BmBoKI2e7wUEYpRO0djKLuGoMfz7s1VZ&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+      <script>
+        paypal.Buttons({
+            style: {
+                shape: 'pill',
+                color: 'silver',
+                layout: 'vertical',
+                label: 'subscribe'
+            },
+            createSubscription: function(data, actions) {
+              return actions.subscription.create({
+                /* Creates the subscription */
+                plan_id: 'P-5N243535UA205610XMFIVNZI'
+              });
+            },
+            onApprove: function(data, actions) {
+              alert(data.subscriptionID); // You can add optional success message for the subscriber here
+            }
+        }).render('#paypal-button-container-P-5N243535UA205610XMFIVNZI'); // Renders the PayPal button
+      </script>
+            
+    </div>
+    
+        
+
+
+  
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/anim.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/up.js"></script>
+    <script src="./assets/js/zswiper.js"></script>
+</body>
+
+</html>
